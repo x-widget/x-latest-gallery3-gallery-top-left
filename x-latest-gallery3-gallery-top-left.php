@@ -27,7 +27,7 @@ $list = g::posts( array(
 		}
 	}
 	else {	
-	$img = g::thumbnail_from_image_tag( "<img src='".x::url()."/widget/$widget_config[name]/img/no_image.png'/>", $_bo_table, 528, 213 );
+	$img = "$widget_config[url]/img/no_image.png";
 		
 	}
 	?>
