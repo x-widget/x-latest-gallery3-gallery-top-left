@@ -26,7 +26,7 @@ $list = g::posts( array(
 			$img = $image_from_tag;
 		}
 	}
-	else $img = x::url()."widget/$widget_config[name]/img/default_banner.png";
+	else $img = x::url()."/widget/$widget_config[name]/img/default_banner.png";
 	?>
 	
 	<div class='top-left'>
