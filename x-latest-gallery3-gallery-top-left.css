@@ -52,7 +52,7 @@
 }
 
 .latest-top-left .read_more {
-	z-index: 10000;
+	z-index: 900;
 	position: absolute;
 	top: 0;
 	left: 0;
